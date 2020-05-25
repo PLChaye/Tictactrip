@@ -4,16 +4,17 @@
 
 - Installations requises:
   - Python 3.7: https://www.python.org/downloads/
-    Télécharger puis installer
+    - Télécharger puis installer
+    - Sélectionner 'Add Python 3.x to PATH' pour utiliser la commande 'pip' depuis n'importe quel répertoire (optionnel)
   - Jupyter Notebook: https://jupyter.org/install
   
-    Installer avec pip:
+    Installer avec pip (depuis le terminal):
     ```
-    pip install jupyterlab
+    pip install notebook
     ```
     Installer avec conda:
     ```
-    conda install -c conda-forge jupyterlab
+    conda install -c conda-forge notebook
     ```
     
 - Pour exécuter le code:
@@ -28,5 +29,6 @@
     - Cliquer sur 'Téléverser' pour chacun des fichiers
   - Cliquer sur 'Tictactrip.ipynb'
     - Exécuter le programme en cliquant sur l'icône :fast_forward:, en haut et au milieu de la fenêtre
-    - Le programme se lancera
+    - Valider en cliquant sur 'Relancer et exécuter toutes le cellules'
+    - Le programme se lancera (l'exécution peut prendre un peu de temps)
   - Pour exécuter une cellule individuellement, cliquer dessus et appuyez simultanément sur les touches 'Maj' et 'Entrée'
